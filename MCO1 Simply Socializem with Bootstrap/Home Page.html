@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="Bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="Home Page Style.css" rel="stylesheet">
+    <script src="Bootstrap/bootstrap.min.js"></script>
+    </head>
+    <body
+      
+<!-- =================================== NAVBAR ===================================-->
+      
+<div class="HomePageContent">
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+<!-- Web Name and Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="Home Page.html">
+      <img src="Pictures/Logo.png" class="d-inline-block align-text-top Logo" alt="Logo">
+      <span class="GloboxText">Globox</span>
+    </a>
+<!-- Menu button for smaller screen width -->
+    <button 
+    class="navbar-toggler" 
+    type="button" 
+    data-bs-toggle="collapse" 
+    data-bs-target="#navbarSupportedContent" 
+    aria-controls="navbarSupportedContent" 
+    aria-expanded="false" 
+    aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+<!-- Menu item list -->
+    <div class="text-center collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active Home" aria-current="page" href="Home Page.html">Home</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="Resume.html">About me</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#Logout Notice">Log Out</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ============================== NAVBAR END ===================================-->
+
+<!-- ========================= PROFILE INFO AND OTHER INFOS ==========================-->
+
+
+<div class="container-fluid profileBoxSpace">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card profileBox">
+<!-- Background Picture -->
+        <img class="BackgroundPicture" src="Pictures/ProfileBackground.jpg" alt="Background Profile Picture">
+        <div class="ProfileText">
+<!-- Profile Picture -->
+          <div class="ProfilePic">
+            <img src="Pictures/ProfilePicture.jpg" alt="user">
+          </div>
+          <h3>SABUQUEL, BRYAN KENT</h3>
+          <p class=nickname>Kent</p> 
+          <div class="mt-5 line"></div><!-- Adds my Customize Horizontal Line -->
+          <div class="row PtextBottom">
+            <div class="col-lg-4 col-md-4">
+              <h3>100k</h3>
+              <p class="btText">Likes</p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <h3>10k</h3>
+              <p class="btText">Followers</p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+              <h3>56</h3>
+              <p class="btText">Following</p>
+            </div>
+          </div>
+        </div>
+<!-- About me or Personal Infos -->
+        <div class="container mt-3 PersonalInfo">
+          <div class="text-center">
+            <a href="#demo" class="collapsed aboutmeText" data-bs-toggle="collapse">ABOUT ME</a>
+          </div>
+          <div id="demo" class="collapse AboutMeContent">
+            <span class="Info">Full Name:</span><br>
+            <span class="cInfo">Sabuquel, Bryan Kenneth</span><hr>
+            <span class="Info">Age:</span><br>
+            <span class="cInfo">22</span><hr>
+            <span class="Info">Sex:</span><br>
+            <span class="cInfo">Male</span><hr>
+            <span class="Info">Civil Status:</span><br>
+            <span class="cInfo">Single</span><hr>
+            <span class="Info">Date of Birth:</span><br>
+            <span class="cInfo">January 22, 2002</span><hr><br>
+            <div class="text-center">
+              <span class="Info">Bio:</span>
+            </div>
+            <div class="text-center">
+              <br><span class="cInfo">
+                <em>
+                  <p>I'm Bryan Kenneth Sabuquel, 22 years old,
+                  <br>from Calungbuyan, Lidlidda, Ilocos Sur. I'm all about e-games,
+                  <br>watching videos on social media, and just chilling out.
+                  <br><span style="color: darkred; font-weight: bold;">Life's too short not to enjoy every moment!</span>
+                  </p>
+                </em>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================= PROFILE INFO END ========================-->
+
+<div class="mt-5 line"></div><!-- Adds my Customize Horizontal Line -->
+
+<!-- =============================== FRIENDS LIST =================================-->
+
+<p class="text-left mt-3 FriendlistText">Friend List</p>
+<div class="scroll-container ScrollContent">
+  <div class="row flex-nowrap">
+    <div class="col">
+      <div class="box1">
+        <div class="circle">
+          <a href="Pictures/Avatar 1.jpg" class="text-decoration-none">
+          <img src="Pictures/Avatar 1.jpg" alt="Profile Avatar">
+          <h2>Juswa Deck Small</h2>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="box2">
+        <div class="circle">
+          <img src="Pictures/Avatar 2.jpg" alt="Profile Avatar">
+          <h2>May S. Kit</h2>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="box3">
+        <div class="circle">
+          <img src="Pictures/Avatar 3.jpg" alt="Profile Avatar">
+          <h2>Jake Sins</h2>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="box4">
+        <div class="circle">
+          <img src="Pictures/Avatar 4.jpg" alt="Profile Avatar">
+          <h2>Bloody Merrie</h2>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="box5">
+        <div class="circle">
+          <img src="Pictures/Avatar 5.jpg" alt="Profile Avatar">
+          <h2>Liza Kit</h2>
+        </div>
+      </div>
+      </div>
+      <div class="col">
+        <div class="box6">
+          <div class="circle">
+            <img src="Pictures/Avatar 6.jpg" alt="Profile Avatar">
+            <h2>malu O. wang</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="box7">
+          <div class="circle">
+            <img src="Pictures/Avatar 7.jpg" alt="Profile Avatar">
+            <h2>john Man</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="box8">
+          <div class="circle">
+            <img src="Pictures/Avatar 8.jpg" alt="Profile Avatar">
+            <h2>Maka Tao</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="Addbox">
+          <div class="AddLogo">
+            <a class="iconText text-decoration-none" href="Not_important.html">
+              <img src="Pictures/addFriend.png" alt="Logo">
+              <span><br>ADD FRIEND</span>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- ============================END OF FRIENDS LIST==============================-->
+
+<!-- ============================ POST ==============================-->
+
+<div class="PostBoxBorder">
+<div class="PostBox">
+  <div class="Postcircle">
+    <img src="Pictures/Avatar 8.jpg" alt="Profile Avatar">Maka Tao
+  </div>
+  <div class="Post1"></div>
+</div>
+<div class="mt-3 Postline"></div>
+</div>
+
+<div class="PostBoxBorder">
+<div class="PostBox">
+  <div class="Postcircle">
+    <img src="Pictures/Avatar 5.jpg" alt="Profile Avatar">Liza Kit
+  </div>
+  <div class="Post2"></div>
+</div>
+<div class="mt-3 Postline"></div>
+</div>
+
+<div class="PostBoxBorder">
+<div class="PostBox">
+  <div class="Postcircle">
+    <img src="Pictures/Avatar 3.jpg" alt="Profile Avatar">Jake Sins
+  </div>
+  <div class="Post3"></div>
+</div>
+<div class="mt-3 Postline"></div>
+</div>
+
+<div class="PostBoxBorder">
+<div class="PostBox">
+  <div class="Postcircle">
+    <a href="Pictures/Avatar 1.jpg" class="text-decoration-none">
+    <img src="Pictures/Avatar 1.jpg" alt="Profile Avatar"></a>Juswa Deck Small
+  </div>
+  <div class="Post4"></div>
+</div>
+<div class="mt-3 Postline"></div>
+</div>
+
+<!-- ============================ POST END==============================-->
+
+<div id="Logout Notice" class="modal">
+  <div class="content">
+    <img src="Pictures/exclamation.png" width="50" height="50">
+    <h1 class="noticeText">Log out of your account?</h1>
+    <hr style="color: white">
+    <div class="Logoutchoice">
+    <a href="Home Page.html" class="btnCancel">Cancel</a>
+    <a href="LOGIN.html" class="btnYes">Logout</a>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+    </body>
+</html>

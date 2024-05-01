@@ -1,0 +1,183 @@
+body {
+  background-color: #151922;
+}
+.BoxSpace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.BoxBG {
+  width: 700px;
+  height: auto;
+  border-radius: 20px;
+  background-color: #2E1A47;
+  background-image: linear-gradient(to right, #cc0065, #2E1A47);
+  border: 1px solid white;
+  box-shadow: 0 0 70px black;
+  padding: 10px 30px 0 30px;
+}
+.LogoBox{
+  margin-top: -65px;
+}
+.LogoBox img{
+  width: 105px;
+  height: 100px;
+  border: 5px solid #151922;
+  border-radius: 10px;
+}
+
+.BoxContent {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.txt01{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px black;
+  font-variant: small-caps;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.txt02{
+  text-decoration: none;
+  color: white;
+}
+.txt03{
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px black;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.txt04{
+  color: white;
+  font-size: 11px;
+  font-weight: 300;
+}
+.txt05{
+  color: white;
+}
+.Fpass {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.InputBox{
+  font-size: 17px;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 3px solid black;
+  color: #151922;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 50px;
+}
+
+.loginbtn{
+  width: 220px;
+  height: auto;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: blue;
+  background-image: linear-gradient(to right, darkblue, blue);
+  color: white;
+  text-shadow: 0 0 5px black;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.SocialMediaIcons img{
+  margin: 10px;
+  margin-top: -10px;
+  width: 60px;
+  height: 60px;
+}
+
+.bttmline{
+  height: 0.1px;
+  background-color: black;
+  margin: -10px 100px 5px 100px;
+}
+
+/* ---------------------- SIGNUP --------------------------*/
+
+.Userinfo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.SignBoxContent{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Signintxt01{
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px black;
+  font-variant: small-caps;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.SignUpspaces input{
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 3px solid black;
+  color: #151922;
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: -10px;
+}
+
+.SignUpspaces{
+  margin: 0 28px;
+}
+
+.submitbtn{
+  margin-top: 50px;
+}
+
+.BottomLink{
+  font-size: 15px;
+  color: white;
+}
+
+/* --------------- DONT MIND THIS --------------- */
+
+.NotImpBox{
+  margin-top: 150px;
+  margin-bottom: 160px;
+}
+
+.notImp{
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0 0 5px black;
+  font-variant: small-caps;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.notImp2{
+  color: darkred;
+}
+
+.Backbtn{
+  color: whitesmoke;
+  text-shadow: 0 0 10px darkred;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.BackbtnBG{
+  margin-bottom: 20px;
+}

@@ -1,0 +1,112 @@
+body{
+  background-color: #010B13;
+}
+
+.navbar{
+  border-bottom: solid;
+  border-image: linear-gradient(to right, #FF0000, #FF00FF, #cc0065) 3;
+}
+
+.Logo{
+  width: 70px;
+  height: auto;
+}
+
+.GloboxText{
+  font-variant: small-caps;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 900;
+  font-size: 30px;
+  color: lightgrey;
+}
+
+.nav-item {
+font-size: 18px;
+font-variant: small-caps;
+}
+
+/* Design for my name, address, contact info and image*/
+.toppart {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+  }
+  .text {
+    flex: 1;
+    padding: 20px;
+    color: white;
+  }
+  .namefont, .objectivefont, .pesonalinfofont, .educbackgroundfont, .skillfont {
+    font-size: 25px;
+    font-variant: small-caps;
+    color: #455a64;
+    font-weight: bold;
+}
+
+.anefont, .myobjectivefont {
+    font-size: 15px;
+}
+
+  .image {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+  }
+  .image img {
+    width: 200px;
+    height:200px;
+    border-radius: 100%;
+    border: 3px solid white;
+    padding: 5px;
+  }
+
+/* PADDING SA OBJECTIVE, PERSONAL INFO, EDUCATIONAL BACKGROUND AND SKILLS*/
+.objective, .info, .educbackground, .skill{
+  color: white;
+}
+  .objective, .info, .educbackground, .skill { 
+    padding: 20px;
+  }
+  
+  /* DESIGN FOR THE TABLES INSIDE THE PERSONAL INFO AND EDUCATIONAL BACKGROUND*/
+  table {
+    width: 80%;
+    font-size: 15px;
+    line-height: 1;
+  }
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    font-size: 15px;
+    padding: 8px;
+    text-align: left;
+  }
+  .dl {
+    font-size: 13px;
+    padding: 8px;
+    text-align: left;
+  }
+.listskills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.myskills {
+  flex: 0 0 calc(50% - 20px);
+  margin-right: 20px;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.skill {
+  margin-bottom: 100px;
+}
+  
+  /*LONG HORIZONTAL LINE DESIGN*/
+.line{
+  height: 2px;
+  background-color: white;
+  background-image: linear-gradient(to right, #FF0000, #FF00FF, #cc0065);
+}
